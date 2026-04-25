@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for proper document structure and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihsan Anwar - Full Stack Developer | Bringing Vision to Reality</title>
+    
+    <!-- External Fonts - Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons throughout the website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets - Custom CSS for styling and layout -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/cursor-effect.css">
+    <!-- JavaScript Libraries - jQuery for DOM manipulation and Typed.js for text animations -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar - Fixed navigation for easy site navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand - Personal branding with developer-style brackets -->
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">IHSAN</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <!-- Navigation Menu - Links to all major sections -->
+            <ul class="nav-menu">
+                <!-- Home dropdown with alternative layout option -->
+                <li class="dropdown">
+                    <a href="#home" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </li>
+                <!-- Main navigation links to portfolio sections -->
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Mobile hamburger menu for responsive navigation -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Introduction and Main Title -->
+    <section id="home" class="hero">
+        <div class="hero-content-center">
+            <!-- Main name display with large typography -->
+            <h1 class="hero-name-large">IHSAN ANWAR</h1>
+            <!-- Professional role/title -->
+            <p class="hero-role-large">Full Stack Developer</p>
+        </div>
+    </section>
+
+    <!-- What I Do Section - Bringing Vision to Reality -->
+    <section id="services" class="services">
+        <div class="container">
+            <!-- Section Header with Vision-focused Title -->
+            <div class="services-header">
+                <span class="services-label">What I Do</span>
+                <h2 class="section-title">Bringing Vision to Reality</h2>
+                <p class="section-subtitle">Transforming ideas into digital success stories while empowering the next generation of developers</p>
+            </div>
+            
+            <!-- Services Grid showcasing how I help grow digital presence -->
+            <div class="services-grid">
+                <!-- Service 1: Student Mentoring & Career Development -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Student Mentoring & Career Development</h3>
+                    <p>
+                        I mentor students and fresh graduates in their web development journey, helping them 
+                        build the skills and confidence needed to launch successful careers in tech. From 
+                        coding fundamentals to career guidance, I'm here to support your growth.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> One-on-one mentoring sessions</li>
+                        <li><i class="fas fa-check"></i> Career guidance and job preparation</li>
+                        <li><i class="fas fa-check"></i> Portfolio development support</li>
+                        <li><i class="fas fa-check"></i> Industry insights and networking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-service">Start Your Journey</a>
+                </div>
+
+                <!-- Service 2: Digital Presence Growth (Featured) -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Growing Your Digital Presence</h3>
+                    <p>
+                        I help individuals and businesses transform their vision into powerful digital experiences. 
+                        Whether you need a professional website, portfolio, or complete digital makeover, 
+                        I create solutions that make you stand out online.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom website development</li>
+                        <li><i class="fas fa-check"></i> Professional portfolio creation</li>
+                        <li><i class="fas fa-check"></i> Brand identity & digital strategy</li>
+                        <li><i class="fas fa-check"></i> SEO optimization & performance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-service">Grow Your Presence</a>
+                </div>
+
+                <!-- Service 3: Web Development Training -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development Training</h3>
+                    <p>
+                        I teach modern web development through hands-on projects and real-world applications. 
+                        From HTML/CSS basics to advanced JavaScript and React, I make learning coding 
+                        accessible, practical, and enjoyable for everyone.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Project-based learning approach</li>
+                        <li><i class="fas fa-check"></i> Modern technologies (React, JavaScript)</li>
+                        <li><i class="fas fa-check"></i> Flexible learning schedules</li>
+                        <li><i class="fas fa-check"></i> Continuous support and guidance</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-service">Learn to Code</a>
+                </div>
+            </div>
+
+            <!-- Vision Statement -->
+            <div class="services-vision">
+                <div class="vision-content">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>My Vision</h3>
+                    <p>
+                        "Every great digital success story starts with a vision. I'm here to help you turn that vision into reality, 
+                        whether you're a student starting your career journey or a business ready to make your mark online. 
+                        Together, we'll build something amazing."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">My professional journey in web development</p>
+            
+            <div class="experience-timeline">
+                <!-- Current Position -->
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge current">Present</span>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="company-logo">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Full Stack Developer</h3>
+                            <h4>PL Solutions</h4>
+                            <p class="experience-duration">September 2025 - Present</p>
+                            <p class="experience-description">
+                                Working as a Full Stack Developer, building modern web applications using React, Node.js 
+                                and MongoDB. Responsible for both frontend and backend development, creating responsive 
+                                user interfaces and robust server-side solutions. Started professional work just one month 
+                                after beginning my web development journey.
+                            </p>
+                            <div class="experience-skills">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">Express.js</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship -->
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">1 Month</span>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="company-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>React Developer Intern</h3>
+                            <h4>SkillyZone Company</h4>
+                            <p class="experience-duration"> 2025</p>
+                            <p class="experience-description">
+                                Completed a focused internship program specializing in React development. 
+                                Gained hands-on experience building interactive user interfaces, working with 
+                                React components, hooks, and modern development practices. This internship marked 
+                                the beginning of my web development journey.
+                            </p>
+                            <div class="experience-skills">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Freelancing -->
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="date-badge">2024 - Present</span>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Freelance Web Developer</h3>
+                            <h4>Self-Employed</h4>
+                            <p class="experience-duration">August 2024 - Present</p>
+                            <p class="experience-description">
+                                Working as a freelance web developer since August 2024, building websites and 
+                                web applications for clients. Delivering custom solutions using modern technologies, 
+                                managing projects end-to-end from design to deployment, and continuously growing 
+                                skills through real-world client work.
+                            </p>
+                            <div class="experience-skills">
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">Freelancing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+    <!-- Projects Showcase Section -->
+    <!-- <section id="projects-showcase" class="projects-showcase">
+        <div class="container">
+            <h2 class="section-title">Projects Showcase</h2>
+            <p class="section-subtitle">Building innovative solutions with modern technologies</p>
+            
+            <div class="showcase-grid">
+              
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="images/BI8.png" alt="Project 1">
+                        <div class="project-badge">Featured</div>
+                        <div class="showcase-overlay">
+                            <div class="overlay-content">
+                                <span class="project-number">01</span>
+                                <h3>Project Title 1</h3>
+                                <p>Next.js • Tailwind CSS • Full Stack</p>
+                                <div class="project-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">API</span>
+                                    <span class="tag">Responsive</span>
+                                </div>
+                                <div class="overlay-buttons">
+                                    <a href="#" target="_blank" class="btn btn-showcase">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+   
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="images/react-registraion.png" alt="Project 2">
+                        <div class="showcase-overlay">
+                            <div class="overlay-content">
+                                <span class="project-number">02</span>
+                                <h3>Project Title 2</h3>
+                                <p>React • Form Validation • Hooks</p>
+                                <div class="project-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">Forms</span>
+                                    <span class="tag">UI/UX</span>
+                                </div>
+                                <div class="overlay-buttons">
+                                    <a href="#" target="_blank" class="btn btn-showcase">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="images/Sliding portfolio.png" alt="Project 3">
+                        <div class="showcase-overlay">
+                            <div class="overlay-content">
+                                <span class="project-number">03</span>
+                                <h3>Project Title 3</h3>
+                                <p>JavaScript • CSS3 • Animations</p>
+                                <div class="project-tags">
+                                    <span class="tag">Vanilla JS</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">Interactive</span>
+                                </div>
+                                <div class="overlay-buttons">
+                                    <a href="#" target="_blank" class="btn btn-showcase">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+   
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="images/react-portfolio.png" alt="Project 4">
+                        <div class="showcase-overlay">
+                            <div class="overlay-content">
+                                <span class="project-number">04</span>
+                                <h3>Project Title 4</h3>
+                                <p>React • Node.js • MySQL</p>
+                                <div class="project-tags">
+                                    <span class="tag">Full Stack</span>
+                                    <span class="tag">Database</span>
+                                    <span class="tag">CRUD</span>
+                                </div>
+                                <div class="overlay-buttons">
+                                    <a href="#" target="_blank" class="btn btn-showcase">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="images/BI8.png" alt="Project 5">
+                        <div class="showcase-overlay">
+                            <div class="overlay-content">
+                                <span class="project-number">05</span>
+                                <h3>Project Title 5</h3>
+                                <p>HTML • CSS • Bootstrap • jQuery</p>
+                                <div class="project-tags">
+                                    <span class="tag">Landing Page</span>
+                                    <span class="tag">Responsive</span>
+                                    <span class="tag">Modern</span>
+                                </div>
+                                <div class="overlay-buttons">
+                                    <a href="#" target="_blank" class="btn btn-showcase">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-note">
+                <i class="fas fa-code"></i>
+                <p>Every project is a step forward in my journey as a developer</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Next.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wind"></i>
+                            <span>Tailwind CSS</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>jQuery</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Express.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="60"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Others -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-npm"></i>
+                            <span>NPM</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Creative work showcasing my development skills</p>
+            
+            <div class="projects-sticky-container">
+                <!-- Project 1 - GetReach (MERN Stack - Video Preview) -->
+                <div class="project-sticky-item">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">GetReach Platform</h3>
+                            <p class="project-description">
+                                A full stack MERN application built to help businesses grow their digital reach. 
+                                Features a React frontend, Node.js & Express backend, and MongoDB database. 
+                                Includes user authentication, dynamic content management, and a fully responsive UI.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">Express.js</span>
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">MERN Stack</span>
+                            </div>
+                            <!-- <a href="#" target="_blank" class="project-btn">
+                                <span>View Live</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a> -->
+                        </div>
+                        <div class="project-image project-video-wrapper">
+                            <video class="project-video" src="img/getReach.mp4" muted loop playsinline preload="auto"></video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 - Little Lemon Frontend -->
+                <div class="project-sticky-item">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Little Lemon Restaurant</h3>
+                            <p class="project-description">
+                                A modern restaurant frontend website built with React. Features responsive design, 
+                                interactive menu display, smooth animations, and optimized performance. Clean UI/UX 
+                                design with modern React components and hooks for seamless user experience.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Responsive</span>
+                            </div>
+                            <a href="https://next-jsbi-8.vercel.app/" target="_blank" class="project-btn">
+                                <span>View Live</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-image">
+                            <img src="img/little lemon.gif" alt="Little Lemon Restaurant">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - Dry Fruits Site -->
+                <div class="project-sticky-item">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Dry Fruits Store</h3>
+                            <p class="project-description">
+                                A beautiful dry fruits e-commerce website built with HTML, CSS, Bootstrap, and jQuery. 
+                                Features product showcase, interactive elements, smooth animations, and responsive 
+                                design. Clean layout with modern styling and user-friendly navigation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">jQuery</span>
+                            </div>
+                            <a href="#" target="_blank" class="project-btn">
+                                <span>View Live</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-image">
+                            <img src="img/dry fruit.gif" alt="Dry Fruits Store">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 - Responsive Dry Fruits Site -->
+                <div class="project-sticky-item">
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Responsive Dry Fruits Site</h3>
+                            <p class="project-description">
+                                The responsive version of the dry fruits website, optimized for all devices. 
+                                Enhanced mobile experience with touch-friendly interface, improved performance, 
+                                and adaptive layouts. Perfect showcase of responsive web design principles.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Responsive Design</span>
+                                <span class="tech-badge">Mobile-First</span>
+                                <span class="tech-badge">CSS Grid</span>
+                                <span class="tech-badge">Flexbox</span>
+                            </div>
+                            <a href="#" target="_blank" class="project-btn">
+                                <span>View Live</span>
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-image">
+                            <img src="img/resp dry fruit.gif" alt="Responsive Dry Fruits Site">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <p class="section-subtitle">Credentials that validate my expertise</p>
+            
+            <div class="certs-timeline">
+                
+                
+                                <!-- Full Stack JavaScript Developer from IBM Certificate -->
+                                <div class="cert-timeline-item" data-aos="fade-left">
+                                    <div class="cert-box">
+                                        <div class="cert-ribbon fullstack">
+                                            <i class="fas fa-code"></i>
+                                        </div>
+                                        <div class="cert-preview">
+                                            <img src="img/full stack javascript.gif" alt="Full Stack JavaScript Developer from IBM">
+                                        </div>
+                                        <div class="cert-details">
+                                            <div class="cert-header">
+                                                <div class="cert-icon fullstack-icon">
+                                                    <i class="fab fa-node-js"></i>
+                                                </div>
+                                                <div class="cert-title-group">
+                                                    <h3>Full Stack JavaScript Developer</h3>
+                                                    <p class="cert-issuer">IBM</p>
+                                                </div>
+                                            </div>
+                                            <p class="cert-description">
+                                                IBM's comprehensive full stack development certification covering advanced JavaScript, 
+                                                Node.js, React, Express, MongoDB, and enterprise-level application development practices.
+                                            </p>
+                                            <div class="cert-badges">
+                                                <span class="badge">React</span>
+                                                <span class="badge">Node.js</span>
+                                                <span class="badge">MongoDB</span>
+                                                <span class="badge">Express</span>
+                                                <span class="badge">IBM Cloud</span>
+                                            </div>
+                                            <a href="#" target="_blank" class="cert-link">
+                                                <span>View Certificate</span>
+                                                <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <!-- Google Cyber Security Certificate -->
+                            <div class="cert-timeline-item" data-aos="fade-left">
+                    <div class="cert-box">
+                        <div class="cert-ribbon security">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="cert-preview">
+                            <img src="img/google cyber security.gif" alt="Google Cyber Security">
+                        </div>
+                        <div class="cert-details">
+                            <div class="cert-header">
+                                <div class="cert-icon google-icon">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                                <div class="cert-title-group">
+                                    <h3>Google Cyber Security</h3>
+                                    <p class="cert-issuer">Google</p>
+                                </div>
+                            </div>
+                            <p class="cert-description">
+                                Comprehensive cybersecurity certificate covering network security, incident response, 
+                                threat analysis, and security best practices for modern web applications.
+                            </p>
+                            <div class="cert-badges">
+                                <span class="badge">Security</span>
+                                <span class="badge">Network</span>
+                                <span class="badge">Threat Analysis</span>
+                                <span class="badge">Incident Response</span>
+                            </div>
+                            <a href="#" target="_blank" class="cert-link">
+                                <span>View Certificate</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Meta Frontend Certificate -->
+                <div class="cert-timeline-item" data-aos="fade-right">
+                    <div class="cert-box">
+                        <div class="cert-ribbon meta">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="cert-preview">
+                            <img src="img/metafrontend.png" alt="Meta Frontend Developer">
+                        </div>
+                        <div class="cert-details">
+                            <div class="cert-header">
+                                <div class="cert-icon meta-icon">
+                                    <i class="fab fa-meta"></i>
+                                </div>
+                                <div class="cert-title-group">
+                                    <h3>Meta Frontend Developer</h3>
+                                    <p class="cert-issuer">Meta (Facebook)</p>
+                                </div>
+                            </div>
+                            <p class="cert-description">
+                                Professional certificate program covering React, JavaScript, HTML/CSS, and modern frontend development practices. 
+                                Comprehensive training in building responsive web applications.
+                            </p>
+                            <div class="cert-badges">
+                                <span class="badge">React</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">HTML/CSS</span>
+                                <span class="badge">Frontend</span>
+                            </div>
+                            <a href="#" target="_blank" class="cert-link">
+                                <span>View Certificate</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- IELTS Certificate -->
+                <div class="cert-timeline-item" data-aos="fade-right">
+                    <div class="cert-box">
+                        <div class="cert-ribbon language">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="cert-preview">
+                            <img src="img/Ielts.png" alt="IELTS">
+                        </div>
+                        <div class="cert-details">
+                            <div class="cert-header">
+                                <div class="cert-icon ielts-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="cert-title-group">
+                                    <h3>IELTS Preparation</h3>
+                                    <p class="cert-issuer">Coursera</p>
+                                </div>
+                            </div>
+                            <p class="cert-description">
+                                International English Language Testing System certification demonstrating 
+                                advanced English proficiency for professional and academic communication.
+                            </p>
+                            <div class="cert-badges">
+                                <span class="badge">English</span>
+                                <span class="badge">Communication</span>
+                                <span class="badge">Writing</span>
+                                <span class="badge">Speaking</span>
+                            </div>
+                            <a href="https://coursera.org/share/3674d0c3112a9e8a8e884da74f05ed5a" target="_blank" class="cert-link">
+                                <span>View Certificate</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        
+    </section>
+    
+    <!-- About Section - Personal Background and Skills -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- About section header -->
+            <div class="about-header">
+                <span class="about-label">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <div class="about-image-frame">
+                        <img src="img/about.png" alt="Ihsan Anwar">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="about-badge badge-1">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <span class="badge-number">10+</span>
+                            <span class="badge-text">Projects</span>
+                        </div>
+                    </div>
+                    <div class="about-badge badge-2">
+                        <i class="fas fa-award"></i>
+                        <div>
+                            <span class="badge-number">4+</span>
+                            <span class="badge-text">Certificates</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-details">
+                    <h3 class="about-title">
+                        <span class="title-highlight">JavaScript Developer</span>
+                        <span class="title-separator">&</span>
+                        <span class="title-highlight">Problem Solver</span>
+                    </h3>
+                    
+                    <p class="about-intro">
+                        I'm a passionate Full Stack JavaScript Developer with 1.5+ years of hands-on experience 
+                        in building modern, scalable web applications. I turn complex problems into elegant solutions.
+                    </p>
+
+                    <div class="about-journey">
+                        <div class="journey-item">
+                            <div class="journey-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="journey-content">
+                                <h4>Professional Certifications</h4>
+                                <p>Completed Full Stack JavaScript Development from IBM, Frontend Development from Meta, Cyber Security from Google, and IELTS Preparation from ICD International Career Development.</p>
+                            </div>
+                        </div>
+
+                        <div class="journey-item">
+                            <div class="journey-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="journey-content">
+                                <h4>Technical Expertise</h4>
+                                <p>Proficient in MERN stack (MongoDB, Express.js, React, Node.js), Next.js, Bootstrap, jQuery, Tailwind CSS, and modern web development technologies.</p>
+                            </div>
+                        </div>
+
+                        <div class="journey-item">
+                            <div class="journey-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="journey-content">
+                                <h4>Problem Solver & Innovator</h4>
+                                <p>Passionate about solving complex challenges through code. I thrive on turning ideas into reality and continuously learning new technologies to build better solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="about-actions">
+                        <a href="certification/Ihsan-resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <span class="contact-label">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-left">
+                    <div class="contact-intro">
+                        <h3>Let's Talk About Your Project</h3>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    </div>
+
+                    <div class="contact-methods">
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email Me</h4>
+                                <a href="mailto:ihsan.anwar4321@gmail.com">ihsan.anwar4321@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Call Me</h4>
+                                <a href="tel:+923276508773">+92 327 6508773</a>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Location</h4>
+                                <p>Islamabad</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-grid">
+                            <a href="https://github.com/IHSAN-ANWAR" target="_blank" class="social-card">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ihsan-anwar-243964353/" target="_blank" class="social-card">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h3>Send Me a Message</h3>
+                            <p>Fill out the form below and I'll get back to you soon</p>
+                        </div>
+
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <label for="name">Your Name</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" id="name" placeholder="John Doe">
+                                    </div>
+                                    <span class="error-message" id="nameError"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <label for="email">Your Email</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="email" id="email" placeholder="john@example.com">
+                                    </div>
+                                    <span class="error-message" id="emailError"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <label for="message">Your Message</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-comment-dots"></i>
+                                        <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
+                                    </div>
+                                    <span class="error-message" id="messageError"></span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ihsan Anwar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon.</p>
+            <button class="btn btn-primary" id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script-new.js"></script>
+    <script src="js/cursor-effect.js"></script>
+</body>
+</html>
