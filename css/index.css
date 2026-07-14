@@ -1196,6 +1196,53 @@ body::before {
     transform: translateX(3px);
 }
 
+/* Outline variant for GitHub button */
+.project-btn-outline {
+    background: transparent;
+    border-color: var(--text-secondary);
+    color: var(--text-secondary);
+}
+
+.project-btn-outline:hover {
+    background: var(--text-secondary);
+    color: var(--bg-primary);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Project links row */
+.project-links {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+/* Placeholder when no image/gif is available */
+.project-placeholder {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+    border: 2px dashed rgba(255,255,255,0.15);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: var(--text-secondary);
+}
+
+.project-placeholder i {
+    font-size: 52px;
+    opacity: 0.5;
+}
+
+.project-placeholder span {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
 .project-image {
     position: relative;
     border-radius: 16px;
