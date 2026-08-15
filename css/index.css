@@ -1282,6 +1282,28 @@ body::before {
     transform: none;
 }
 
+/* Iframe Project Card */
+.project-iframe-wrapper {
+    overflow: hidden;
+    border-radius: 16px;
+    border: 2px solid var(--border);
+    position: relative;
+}
+
+.project-iframe-wrapper iframe {
+    width: 100%;
+    height: 420px;
+    border: none;
+    border-radius: 14px;
+    display: block;
+    pointer-events: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-iframe-wrapper:hover iframe {
+    transform: scale(1.01);
+}
+
 /* Alternate layout for even items */
 .project-sticky-item:nth-child(even) .project-content {
     grid-template-columns: 1fr 1fr;

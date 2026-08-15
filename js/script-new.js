@@ -452,7 +452,15 @@ $(document).ready(function() {
 // Video hover play/pause for project cards — triggers on whole card
 $(document).on('mouseenter', '.project-sticky-item .project-content', function() {
     var video = $(this).find('.project-video')[0];
-    if (video) { video.playbackRate = 2.4; video.play(); }
+    if (video) {
+        // Golden Skills video ko faster speed
+        if (video.src && video.src.toLowerCase().includes('goldenskills')) {
+            video.playbackRate = 6.0;
+        } else {
+            video.playbackRate = 2.4;
+        }
+        video.play();
+    }
 }).on('mouseleave', '.project-sticky-item .project-content', function() {
     var video = $(this).find('.project-video')[0];
     if (video) { video.pause(); video.currentTime = 0; }
